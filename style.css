@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:ital@1&display=swap');
+@media screen and (max-width: 800px){
+    header{
+      position: fixed;
+      top: 0px;
+
+      width: 100%;
+      box-shadow:1px 1px 5px #000;
+  
+      height: 2vw;
+      padding: 25px 0px;
+  
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      background-color: black;
+      opacity: 0.7;
+      z-index: 5;
+    }
+  }
+
+  .nav{
+    position: fixed;
+    top: 0px;
+
+    width: 100%;
+    box-shadow:1px 1px 5px #000;
+
+    height: 2vw;
+    padding: 25px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    opacity: 0.7;
+    z-index: 5;
+  }
+
+  #navbar ul a{
+    color: rgb(153, 127, 127);
+    text-decoration: none;
+    font: bold 16px Verdana;
+    padding: 20px 20px 20px 20px;
+}
+#navbar ul a:hover{
+    color: #f2f2f2;
+    background: #6e6e6e;
+}
+  
+
+
+.welcome{
+  font-family: 'Dancing Script';
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  text-align: center;
+  font-size: 25px;
+}
+body{
+  background: linear-gradient(180deg,rgb(255, 209, 128),rgb(149, 117, 205),rgb(124, 77, 255),rgb(140, 158, 255));
+  font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section {
+  display: block;
+  padding: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  box-shadow: 2px 10px 10px black;
+}
+
+a{
+  font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}

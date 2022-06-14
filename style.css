@@ -70,6 +70,9 @@ body{
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: grid;
+  grid-template-rows: 400px 200px 200px 200px 200px;
+  align-items: center;
 }
 section {
   display: block;
@@ -85,3 +88,4 @@ a{
   font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
 }
+
